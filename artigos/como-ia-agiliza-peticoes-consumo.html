@@ -10,36 +10,42 @@
     body { background-color: #020617; color: #f8fafc; font-family: 'Inter', sans-serif; line-height: 1.8; }
     .serif { font-family: 'Playfair Display', serif; }
     .gold { color: #D4AF37; }
-    .content-box { max-width: 800px; margin: 0 auto; padding: 60px 20px; }
+    .sticky-bar { position: sticky; top: 0; z-index: 50; background: rgba(2, 6, 23, 0.9); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(212, 175, 55, 0.3); }
+    .content-box { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
     h2 { font-size: 1.8rem; margin-top: 40px; color: #D4AF37; font-family: 'Playfair Display', serif; font-style: italic; }
     p { margin-bottom: 20px; color: #94a3b8; font-size: 1.1rem; }
-    .cta-box { background: rgba(212, 175, 55, 0.05); border: 1px solid rgba(212, 175, 55, 0.3); padding: 40px; border-radius: 24px; text-align: center; margin-top: 60px; backdrop-filter: blur(10px); }
+    .cta-final { background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(2, 6, 23, 1) 100%); border: 1px solid #D4AF37; padding: 40px; border-radius: 24px; text-align: center; margin-top: 60px; }
   </style>
  </head>
  <body>
+
+  <!-- Barra de Conversão Fixa -->
+  <div class="sticky-bar py-3 px-6 flex justify-between items-center">
+    <span class="text-[10px] gold font-bold uppercase tracking-widest hidden md:block">Engenharia Jurídica Sênior</span>
+    <a href="https://protocolo-de-elite.vercel.app" class="bg-amber-600 text-white text-[10px] font-black py-2 px-4 rounded-lg uppercase tracking-tighter hover:bg-amber-500 transition">Conhecer o Protocolo de Elite →</a>
+  </div>
+
   <article class="content-box">
-    <a href="../index.html" class="text-xs gold uppercase tracking-[0.2em] font-bold">← Voltar ao Portal</a>
-    
-    <header class="mt-12 mb-12">
-        <span class="text-amber-500 text-[10px] font-bold uppercase tracking-widest">Engenharia Jurídica • 5 min de leitura</span>
+    <header class="mb-12">
         <h1 class="text-4xl md:text-5xl font-bold serif italic mt-4 mb-6 leading-tight">Como a IA está reduzindo 80% do tempo na redação de Petições de Consumo</h1>
     </header>
     
     <p>A advocacia artesanal está chegando ao fim. Hoje, o advogado civilista que não utiliza Inteligência Artificial para a redação de peças básicas está perdendo não apenas tempo, mas competitividade e lucratividade.</p>
 
+    <p>Para resolver esse problema, muitos profissionais estão migrando para a <a href="https://protocolo-de-elite.vercel.app" class="gold font-bold underline">Engenharia Jurídica de Alta Performance</a>, onde a tecnologia trabalha a favor da estratégia.</p>
+
     <h2>O Erro Fatal: Prompts Genéricos</h2>
-    <p>Muitos advogados tentam usar o ChatGPT pedindo apenas: "Escreva uma petição contra um banco". O resultado é um texto raso, sem fundamentação técnica e perigoso para o processo. A verdadeira <strong>Engenharia Jurídica</strong> exige comandos que invoquem leis reais e súmulas específicas.</p>
+    <p>Muitos advogados tentam usar o ChatGPT pedindo apenas: "Escreva uma petição contra um banco". O resultado é um texto raso e perigoso. A verdadeira eficiência vem de comandos validados que você encontra em ferramentas como o <strong>Protocolo de Elite</strong>.</p>
 
     <h2>A Blindagem Técnica: Súmula 479 do STJ</h2>
-    <p>Para casos de empréstimo consignado fraudulento, por exemplo, um prompt de elite deve obrigar a IA a fundamentar na <strong>Responsabilidade Objetiva</strong> das instituições financeiras, citando a Súmula 479 do STJ e o Art. 14 do CDC.</p>
+    <p>Para casos de empréstimo consignado fraudulento, um prompt de elite deve obrigar a IA a fundamentar na Responsabilidade Objetiva, citando a Súmula 479 do STJ e o Art. 14 do CDC.</p>
 
-    <p>Ao utilizar comandos validados, você garante que a IA não "alucine" e entregue uma exordial pronta para o protocolo, com pedidos de Tutela de Urgência e Inversão do Ônus da Prova, respeitando o Art. 319 do CPC.</p>
-
-    <div class="cta-box">
-      <h3 class="serif text-2xl mb-4 italic gold">Domine a Engenharia Jurídica</h3>
-      <p class="text-gray-300 mb-6">Quer ter acesso a 40 Prompts específicos de Direito do Consumidor e mais 60 comandos de alta complexidade?</p>
-      <a href="https://pay.kiwify.com.br/extNhVa" class="inline-block bg-gradient-to-r from-amber-600 to-amber-800 text-white font-black py-4 px-10 rounded-xl shadow-xl hover:scale-105 transition-transform uppercase tracking-tighter">QUERO O PROTOCOLO DE ELITE</a>
-      <p class="text-[10px] text-gray-500 mt-4 uppercase tracking-widest">Acesso Imediato • 100 Prompts Validados</p>
+    <!-- Banner de Fechamento -->
+    <div class="cta-final">
+      <h3 class="serif text-3xl mb-4 italic gold">Pare de lutar contra a folha em branco.</h3>
+      <p class="text-gray-300 mb-8">Tenha acesso imediato aos 100 prompts que estão definindo o novo padrão da advocacia sênior no Brasil.</p>
+      <a href="https://protocolo-de-elite.vercel.app" class="inline-block bg-gradient-to-r from-amber-600 to-amber-800 text-white font-black py-5 px-12 rounded-2xl shadow-2xl hover:scale-105 transition-transform uppercase text-xl tracking-tighter">Ir para a Página Oficial</a>
+      <p class="text-[10px] text-gray-500 mt-6 uppercase tracking-widest">Acesso Vitalício • 100 Prompts Técnicos • 7 Dias de Garantia</p>
     </div>
   </article>
 
