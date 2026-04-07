@@ -1,54 +1,48 @@
 <!doctype html>
 <html lang="pt-BR">
- <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="MeH31GYsgHRmGPSRDwlKJUJ4TF1enWh9525qJCx_Z30" />
-  <title>ArchiLex Insights | Engenharia Jurídica Sênior</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    body { background-color: #020617; color: #f8fafc; font-family: 'Inter', sans-serif; }
-    .serif { font-family: 'Playfair Display', serif; }
-    .gold-text { color: #D4AF37; }
-    .glass-card { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(212, 175, 55, 0.1); border-radius: 20px; transition: 0.3s; padding: 30px; }
-    .glass-card:hover { border-color: #D4AF37; transform: translateY(-5px); background: rgba(212, 175, 55, 0.05); }
-  </style>
- </head>
- <body class="p-6">
-  <header class="max-w-5xl mx-auto text-center py-16">
-    <h1 class="text-5xl font-bold serif italic gold-text mb-4">ArchiLex Insights</h1>
-    <p class="text-gray-400 text-xs tracking-[0.3em] uppercase font-bold">A arquitetura da advocacia sênior em 2026</p>
-  </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="MeH31GYsgHRmGPSRDwlKJUJ4TF1enWh9525qJCx_Z30" />
+    <title>ArchiLex Insights | Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #020617; color: #f8fafc; font-family: 'Inter', sans-serif; }
+        .serif { font-family: 'Playfair Display', serif; }
+        .gold-text { color: #D4AF37; }
+        .glass-card { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(212, 175, 55, 0.1); border-radius: 20px; }
+    </style>
+</head>
+<body class="p-6">
+    <header class="max-w-5xl mx-auto text-center py-12">
+        <h1 class="text-5xl font-bold serif italic gold-text mb-4">ArchiLex Insights</h1>
+        <p class="text-gray-400 text-xs uppercase tracking-widest">A arquitetura da advocacia sênior</p>
+    </header>
 
-  <main class="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
-    <a href="artigos/como-ia-agiliza-peticoes-consumo.html" class="glass-card block">
-      <span class="text-amber-500 text-[10px] font-bold uppercase tracking-widest">Direito do Consumidor</span>
-      <h2 class="text-2xl font-bold serif mt-2 mb-4 italic">Neutralizando a Tese de 'Culpa de Terceiro' com IA</h2>
-      <p class="text-gray-500 text-sm leading-relaxed">A Engenharia da Súmula 479 do STJ aplicada a fraudes bancárias de alta complexidade.</p>
-    </a>
+    <!-- VÍDEO DE DESTAQUE NO BLOG -->
+    <section class="max-w-4xl mx-auto mb-16">
+        <div class="glass-card p-4 border-2 border-gold/20">
+            <div class="relative aspect-video rounded-xl overflow-hidden">
+                <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p class="text-gray-500 text-xs mt-4 text-center italic font-bold">Assista: O Futuro da Engenharia Jurídica</p>
+        </div>
+    </section>
 
-    <a href="artigos/ia-no-direito-imobiliario-despejo.html" class="glass-card block">
-      <span class="text-amber-500 text-[10px] font-bold uppercase tracking-widest">Direito Imobiliário</span>
-      <h2 class="text-2xl font-bold serif mt-2 mb-4 italic">Liminares de Despejo: O Rigor do Art. 59 da Lei 8.245/91</h2>
-      <p class="text-gray-500 text-sm leading-relaxed">Como a Inteligência Artificial acelera a retomada de posse e a execução de aluguéis.</p>
-    </a>
+    <main class="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+        <a href="artigos/como-ia-agiliza-peticoes-consumo.html" class="glass-card p-8 block">
+            <span class="text-amber-500 text-[10px] font-bold uppercase">Consumidor</span>
+            <h2 class="text-xl font-bold serif mt-2 gold-text">Súmula 479 do STJ e IA</h2>
+        </a>
+        <a href="artigos/reduzir-tempo-redacao-juridica.html" class="glass-card p-8 block">
+            <span class="text-amber-500 text-[10px] font-bold uppercase">Produtividade</span>
+            <h2 class="text-xl font-bold serif mt-2 gold-text">Redação em 45 Segundos</h2>
+        </a>
+    </main>
 
-    <a href="artigos/ocultacao-de-bens-divorcio-ia.html" class="glass-card block">
-      <span class="text-amber-500 text-[10px] font-bold uppercase tracking-widest">Família e Sucessões</span>
-      <h2 class="text-2xl font-bold serif mt-2 mb-4 italic">IDPJ Inverso e a Desconstrução da Blindagem Patrimonial</h2>
-      <p class="text-gray-500 text-sm leading-relaxed">Estratégias sêniores para identificar ocultação de bens e garantir a partilha real.</p>
-    </a>
-
-    <a href="artigos/fraude-pejotizacao-clt-ia.html" class="glass-card block">
-      <span class="text-amber-500 text-[10px] font-bold uppercase tracking-widest">Direito do Trabalho</span>
-      <h2 class="text-2xl font-bold serif mt-2 mb-4 italic">Pejotização e a Primazia da Realidade na Era Digital</h2>
-      <p class="text-gray-500 text-sm leading-relaxed">Teses de vínculo empregatício fundamentadas nos Arts. 2º e 3º da CLT via prompts técnicos.</p>
-    </a>
-  </main>
-
-  <footer class="max-w-5xl mx-auto text-center py-20 border-t border-white/5 mt-12">
-    <a href="https://advocaciaelite.vercel.app" class="bg-amber-600 text-white font-black py-4 px-10 rounded-xl uppercase tracking-tighter text-sm shadow-lg active:scale-95 transition-transform">Conhecer ArchiLex | Protocolo de Elite →</a>
-  </footer>
- </body>
+    <footer class="max-w-5xl mx-auto text-center py-20">
+        <a href="https://advocaciaelite.vercel.app" class="bg-amber-600 text-white font-black py-4 px-10 rounded-xl uppercase text-sm">Conhecer ArchiLex →</a>
+    </footer>
+</body>
 </html>
